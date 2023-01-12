@@ -1,0 +1,88 @@
+
+public class Driver {
+  
+  
+  public static void main(String[] args) { 
+    
+//Test Angry duck
+//****************
+  AngryDuck ducky=new AngryDuck("Ducky", "black");
+  System.out.println(ducky);
+  
+  ducky.fly();
+  ducky.swim();
+  ducky.peck();
+  
+  System.out.println(ducky.getState());
+  ducky.land();
+  
+  //Kill Angry duck and see if the methods work
+  
+  ducky.hit();
+  ducky.hit();
+  ducky.hit();
+  ducky.hit();
+  System.out.println("\n");
+  
+  //Test happyPig
+  //**************
+  HappyPig piggy =new HappyPig("Piggy", "pink");
+  System.out.println(piggy);
+  
+  piggy.roll();
+  piggy.sleep();
+  
+  //Kill Angry duck and see if the methods work
+  
+  piggy.hit();
+  piggy.hit();
+  piggy.hit();
+  piggy.hit();
+   System.out.println("\n");
+  
+  //Test loudGoose
+  //**********************
+  
+  LoudGoose gos=new LoudGoose("Gossy", "white");
+  System.out.println(gos);
+  
+  gos.fly();
+  gos.swim();
+  gos.honk();
+  
+  System.out.println(gos.getState());
+  ducky.land();
+  
+  //Kill Angry duck and see if the methods work
+  
+  gos.hit();
+  gos.hit();
+  gos.hit();
+  gos.hit();
+  System.out.println("\n");
+  
+  //Test Curious Bunny
+  //*******************
+  
+  CuriousBunny pete =new CuriousBunny("Peter Rabbit", "brown");
+  System.out.println(pete);
+  
+  pete.hop();
+  
+  //Kill Angry duck and see if the methods work
+  
+  pete.hit();
+  pete.hit();
+  pete.hit();
+  pete.hit();
+  
+  //Test count
+  System.out.println("count = " + ducky.getCount());
+  //should be zero because I killed off all the animals
+  
+  }
+  
+  
+  
+  
+}

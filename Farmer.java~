@@ -1,0 +1,19 @@
+
+//William Mwangi
+//T00622533
+//Farmer Driver app
+//*****************************
+public class Farmer {
+  
+  
+  public static void main(String[] args) { 
+    
+    //Create apple and potato feeds
+   FeedA=new Feed("apple", 20 );
+   FeedP=new Feed("potato", 15);
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

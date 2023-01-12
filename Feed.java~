@@ -1,0 +1,50 @@
+//***************************** 
+//William Mwangi
+//T00622533
+//Feed Class
+//*****************************
+
+public class Feed{
+
+	//Instance Variables
+	//******************
+
+	//number of bins left
+	private static int bins=0;
+
+	public String name;
+
+	//Constructor
+	//*************
+
+	pulic Feed(String name, int num){
+		this.bins= bins+num;
+		this.name=name;
+	}
+
+	//Accessors
+	//*********
+
+	//how many bins left?
+	public static int getAmount(){
+		return bins;
+	}
+
+	//What is the name of the feed
+	public static String getName(){
+		return name;
+	}
+
+	//Consume method
+	//**************
+
+	public void consume(){
+		if (bins>=1)
+			bins=bins-1;
+		else
+			print("WARNING: No bins left to be consumed!")
+
+	}
+
+
+}
